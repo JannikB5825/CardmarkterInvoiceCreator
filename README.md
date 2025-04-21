@@ -1,25 +1,16 @@
 <a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/JannikB5825/CardmarkterInvoiceCreator">
-    <img src="icon.omg" alt="Logo" width="80" height="80">
+    <img src="icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">CardmarkterInvoiceCreator</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A Chrome extension that can create an cutsom Invoice for Cardmarket
 </div>
 
 
