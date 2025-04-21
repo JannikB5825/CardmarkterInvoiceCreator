@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Cardmarket Invoice Creator",
+    "version": "1.0",
+    "description": "Extracts order info from Cardmarket order pages.",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "64": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.cardmarket.com/*/Orders/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
